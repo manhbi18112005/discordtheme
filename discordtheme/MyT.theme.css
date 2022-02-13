@@ -1,17 +1,17 @@
 /**
  * @name MyTDiscord
  * @author No Name Studio VN
- * @version 1.1.2
+ * @version 1.2.3
  * @description Highly customizable theme for BetterDiscord.
  * @source https://github.com/manhbi18112005
- * @website https://myt.nonamestudio.xyz
+ * @website https://bot.nonamestudio.xyz
  * @invite nCQbSag
  */
 
 /* Credits to Zerthox for making the original theme. */
 
 /* IMPORT CSS */
-@import url(https://static.nonamestudio.xyz/discordtheme/discordtheme.css);
+@import url('https://static.nonamestudio.xyz/discordtheme/discordtheme.css');
 
 /* SETTINGS */
 :root {
@@ -41,7 +41,7 @@
 	/* APP BACKGROUND */
 	--background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
 	--background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-	--background-image: url(https://static.nonamestudio.xyz/discordtheme/theme.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+	--background-image: url('https://static.nonamestudio.xyz/discordtheme/theme.jpg'); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
 	--background-position: center; /* app background position [default: center] */
 	--background-size: cover; /* app background size [default: cover] */
 	--background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -55,7 +55,7 @@
 	--background-blur: 0px; /* app background blur [default: 0px] */
 	
 	/* HOME BUTTON ICON */
-	--home-icon: url(https://static.nonamestudio.xyz/discordtheme/svg/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
+	--home-icon: url('https://static.nonamestudio.xyz/discordtheme/svg/discord.svg'); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
 	--home-position: center; /* home button icon position [default: center] */
 	--home-size: 40px; /* home button icon size [default: 40px] */
 		
